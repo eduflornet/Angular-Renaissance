@@ -3,7 +3,8 @@ import typescriptLogo from './typescript.svg';
 import viteLogo from '/vite.svg';
 import { setupCounter } from './counter';
 //import './topics/01-basic-types.ts';
-import './topics/04-homework-types';
+//import './topics/04-homework-types';
+import './topics/05-basic-destructuring';
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div>
