@@ -12,21 +12,32 @@ export class Person {
 };
 
 
+// using inheritance
+// export class Hero extends Person {
+//     constructor( 
+//         public aterEgo: string,
+//         public age: number,
+//         public realName: string
+//     ){
+//     super()
+//     }
+// };
 
-export class Hero extends Person {
+// using composition
+export class Hero {
     constructor( 
         public aterEgo: string,
         public age: number,
-        public realName: string
+        public realName: string,
+        public person: Person
     ){
-    super()
+    
     }
 };
 
-const ironman = new Hero('IronMan',20,'Edu');
-ironman.name = 'Lalo';
-ironman.address= 'Madrid';
-
+const person = new Person('Edu', 'Madrid'); 
+// using composition
+const ironman = new Hero('IronMan',20,'Lalo',person);
 console.log('ironman', ironman);
 
 export { };
