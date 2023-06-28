@@ -8,6 +8,7 @@
 - [Using the non-null assertion operator](https://learntypescript.dev/07/l2-non-null-assertion-operator)
 # Angular
 - [Bases Project]()
+- [Angular Dev Tool (Chrome extension)](https://chrome.google.com/webstore/detail/angular-devtools/ienfalfjdbdpebioblfackkekamfmbnh)
 - [Angular v16 is here](https://blog.angular.io/angular-v16-is-here-4d7a28ec680d)
 - [Main Building Blocks Of Angular](https://medium.com/@pramudaliyanage/main-buildings-blocks-of-angular-df00c059f29f)
 

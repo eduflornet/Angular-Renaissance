@@ -1,5 +1,19 @@
 # Bases
 
+- [Install nvm (with choco)](https://community.chocolatey.org/packages/nvm)     
+`
+choco install nvm
+`
+
+- [Install last version of npm](https://docs.npmjs.com/try-the-latest-stable-version-of-npm)    
+`
+npm install -g npm@latest
+`
+- [Install last of Angular CLI](https://angular.io/cli)  
+`
+npm install -g @angular/cli
+`
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
 
 ## Development server
