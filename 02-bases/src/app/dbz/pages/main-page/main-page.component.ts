@@ -13,7 +13,16 @@ export class MainPageComponent {
     { name:'Goku', power:9500}
   ];
 
+  onDelete(index: number): void {
+    console.log('MainPage');
+    console.log('index ', index);
+    // Use splice() to remove arbitrary item
+    this.characters.slice(index, 1);
+  }
+
   onNewCharacter(character:Character): void {
+    // add element at the end of the array
+    this.characters.push(character);
     console.log('MainPage');
     console.log('onNewCharacter', character);
   }

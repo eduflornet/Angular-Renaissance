@@ -17,14 +17,14 @@ public character: Character = {
 };
 
 emitCharacter():void {
-  debugger;
+  //debugger;
   if(this.character.name.length ===0) return;
 
   this.onNewCharacter.emit(this.character);
 
   this.character = { name: '', power: 0};
 
-  console.log(this.character);
+  //console.log(this.character);
 }
 
 }
