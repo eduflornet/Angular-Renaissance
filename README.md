@@ -18,4 +18,7 @@
 
 # BootStrap
 - [list-groups](https://getbootstrap.com/docs/5.3/components/list-group/#variants)
+
+# Npm
+- [uuid](https://www.npmjs.com/package/uuid)
 - 
