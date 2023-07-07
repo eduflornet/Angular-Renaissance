@@ -5,12 +5,15 @@
   <div class="col">
 
     <!-- list -->
-    <!-- <dbz-list [characterList]="characters" 
+    <!-- <dbz-list [characterList]="characters"
               (onDelete)="onDeleteCharacter($event)"
               ></dbz-list> -->
-              
-      <dbz-list [characterList]="dbzService.characters" 
+
+      <!-- <dbz-list [characterList]="dbzService.characters"
       (onDelete)="dbzService.onDeleteCharacter($event)"
+      ></dbz-list> -->
+      <dbz-list [characterList]="dbzService.characters"
+      (onDelete)="dbzService.deleteCharacterById($event)"
       ></dbz-list>
   </div>
 

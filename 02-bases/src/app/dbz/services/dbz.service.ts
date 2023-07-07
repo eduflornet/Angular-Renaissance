@@ -22,6 +22,10 @@ export class DbzService {
     this.characters.slice(index, 1);
   }
 
+  deleteCharacterById(id:string) {
+    this.characters = this.characters.filter( character => character.id !== id );
+  }
+
   onNewCharacter( character :Character): void {
     // add element at the end of the array
     const newCharacter: Character = {

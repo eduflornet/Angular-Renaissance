@@ -14,16 +14,20 @@ export class ListComponent {
 
   // emit index
   @Output()
-public onDelete:EventEmitter<number> = new EventEmitter();
+public onDelete:EventEmitter<string> = new EventEmitter();
 
-  onDeletedCharacter(index:number):void {
+  onDeletedCharacter(id?:string):void {
     console.log('list-component');
-    console.log('index', index);
+    console.log('id', id);
+
+    //this.onDelete.emit(index);
     // Emit ID of the character
-    this.onDelete.emit(index);
+    if(!id) return ;
+    this.onDelete.emit(id);
+
     // Use splice() to remove arbitrary item
-    this.characterList.splice(index,1);
-    
+    //this.characterList.splice(index.,1);
+
   };
 
 }
