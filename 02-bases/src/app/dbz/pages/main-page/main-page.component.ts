@@ -9,27 +9,19 @@ import { DbzService } from '../../services/dbz.service';
 })
 export class MainPageComponent {
 
-  constructor( public dbzService: DbzService){
-    
+  constructor( private dbzService: DbzService){}
+
+  get characters(): Character[] {
+    return [...this.dbzService.characters];
   }
 
-  // public characters: Character[] = [
-  //   { name:'Krillin', power: 1000},
-  //   { name:'Goku', power:9500}
-  // ];
+  onDeleteCharacter(id: string):void {
+    this.dbzService.deleteCharacterById(id);
+  }
 
-  // onDeleteCharacter(index: number): void {
-  //   console.log('MainPage');
-  //   console.log('index ', index);
-  //   // Use splice() to remove arbitrary item
-  //   this.characters.slice(index, 1);
-  // }
+  onNewCharacter(character: Character):void {
+    this.dbzService.addCharacter(character);
+  }
 
-  // onNewCharacter(character:Character): void {
-  //   // add element at the end of the array
-  //   this.characters.push(character);
-  //   console.log('MainPage');
-  //   console.log('onNewCharacter', character);
-  // }
 
 }

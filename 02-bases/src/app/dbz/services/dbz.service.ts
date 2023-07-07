@@ -26,10 +26,12 @@ export class DbzService {
     this.characters = this.characters.filter( character => character.id !== id );
   }
 
-  onNewCharacter( character :Character): void {
+  addCharacter( character :Character): void {
     // add element at the end of the array
+    debugger;
     const newCharacter: Character = {
-        ...character, id: uuid()
+      id: uuid(),
+        ...character
       };
 
     this.characters.push(character);
