@@ -15,10 +15,11 @@
 - [Main Building Blocks Of Angular](https://medium.com/@pramudaliyanage/main-buildings-blocks-of-angular-df00c059f29f)
 - [Interpolation](https://angular.io/guide/interpolation)
 - [Singleton services](https://angular.io/guide/singleton-services)
+- [Angular Tree Shaking](https://www.angular.love/en/2020/12/21/angular-tree-shaking-2/)
 
 # BootStrap
 - [list-groups](https://getbootstrap.com/docs/5.3/components/list-group/#variants)
 
 # Npm
 - [uuid](https://www.npmjs.com/package/uuid)
-- 
+- [http-server](https://www.npmjs.com/package/http-server)
