@@ -17,6 +17,7 @@
 - [Singleton services](https://angular.io/guide/singleton-services)
 - [Angular Tree Shaking](https://www.angular.love/en/2020/12/21/angular-tree-shaking-2/)
 - [What happened to environment.ts](https://dev.to/this-is-angular/angular-15-what-happened-to-environmentts-koh)
+- [Angular router-outlet](https://www.section.io/engineering-education/angular-11-routing/)
 
 # BootStrap
 - [list-groups](https://getbootstrap.com/docs/5.3/components/list-group/#variants)
