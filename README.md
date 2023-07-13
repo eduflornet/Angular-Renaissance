@@ -19,6 +19,7 @@
 - [What happened to environment.ts](https://dev.to/this-is-angular/angular-15-what-happened-to-environmentts-koh)
 - [Angular router-outlet](https://www.section.io/engineering-education/angular-11-routing/)
 - [Angular lazy-loading](https://angular.io/guide/lazy-loading-ngmodules)
+- [Angular path alias](https://angular-folder-structure.readthedocs.io/en/latest/path-alias.html)
 
 # BootStrap
 - [list-groups](https://getbootstrap.com/docs/5.3/components/list-group/#variants)
