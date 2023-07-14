@@ -20,6 +20,7 @@
 - [Angular router-outlet](https://www.section.io/engineering-education/angular-11-routing/)
 - [Angular lazy-loading](https://angular.io/guide/lazy-loading-ngmodules)
 - [Angular path alias](https://angular-folder-structure.readthedocs.io/en/latest/path-alias.html)
+- [Difference between Constructor and ngOnInit](https://stackoverflow.com/questions/35763730/difference-between-constructor-and-ngoninit)
 
 # BootStrap
 - [list-groups](https://getbootstrap.com/docs/5.3/components/list-group/#variants)
