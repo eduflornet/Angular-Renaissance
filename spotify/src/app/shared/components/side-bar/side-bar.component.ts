@@ -7,4 +7,16 @@ import { Component } from '@angular/core';
 })
 export class SideBarComponent {
 
+  linksMenu: Array<any> = [
+    {
+      name: 'Home',
+      icon: 'uil-home'
+    },
+    {
+      name: 'Search',
+      icon:'uil-search'
+    }
+  ];
+
+
 }
