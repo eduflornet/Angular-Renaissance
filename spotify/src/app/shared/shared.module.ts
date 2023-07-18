@@ -4,8 +4,8 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
 import { MediaPlayerComponent } from './components/media-player/media-player.component';
 import { HeaderUserComponent } from './components/header-user/header-user.component';
 import { RouterModule } from '@angular/router';
-import { CardPlayerComponent } from './componets/card-player/card-player.component';
-import { GenericSectionComponent } from './componets/generic-section/generic-section.component';
+import { CardPlayerComponent } from './components/card-player/card-player.component';
+import { GenericSectionComponent } from './components/generic-section/generic-section.component';
 
 
 
