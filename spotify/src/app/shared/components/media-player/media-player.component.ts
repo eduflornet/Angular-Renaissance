@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TrackModel } from '@core/models/tracks.model';
 
 @Component({
   selector: 'app-media-player',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class MediaPlayerComponent {
 
+  mockCover: TrackModel = {
+    name: '',
+    album: '',
+    cover: '',
+    url: '',
+    _id: ''
+  }
 }
