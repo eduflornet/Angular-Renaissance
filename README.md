@@ -7,6 +7,7 @@
 - [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
 - [Using the non-null assertion operator](https://learntypescript.dev/07/l2-non-null-assertion-operator)
 - [Array.splice()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- [Destructuring assignment (ES)](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
 # Angular
 - [Bases Project]()
 - [Angular Snippets VS Code Extension by John Papa](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2)
