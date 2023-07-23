@@ -9,6 +9,7 @@ import { GenericSectionComponent } from './components/generic-section/generic-se
 import { PlayListHeaderComponent } from './components/play-list-header/play-list-header.component';
 import { PlayListBodyComponent } from './components/play-list-body/play-list-body.component';
 import { OrderListPipe } from './pipe/order-list.pipe';
+import { ImgBrokerDirective } from './directives/img-broker.directive';
 
 
 
@@ -21,7 +22,8 @@ import { OrderListPipe } from './pipe/order-list.pipe';
     GenericSectionComponent,
     PlayListHeaderComponent,
     PlayListBodyComponent,
-    OrderListPipe
+    OrderListPipe,
+    ImgBrokerDirective
   ],
   exports:[
     SideBarComponent,
@@ -31,7 +33,8 @@ import { OrderListPipe } from './pipe/order-list.pipe';
     GenericSectionComponent,
     PlayListHeaderComponent,
     PlayListBodyComponent,
-    OrderListPipe
+    OrderListPipe,
+    ImgBrokerDirective
   ],
   imports: [
     CommonModule, RouterModule
