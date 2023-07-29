@@ -9,7 +9,7 @@ export class ImgBrokerDirective {
   @HostListener('error') handleError(): void {
 
     const elNative = this.elHost.nativeElement;
-    console.log('🔴 Esta imagen revento -->', this.elHost);
+    console.log('🔴 This image has been broken -->', this.elHost);
     elNative.src = this.customImg;
 
   }
