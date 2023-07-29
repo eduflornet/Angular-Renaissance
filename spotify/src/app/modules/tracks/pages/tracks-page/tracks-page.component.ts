@@ -12,10 +12,10 @@ mockTracksList: Array<TrackModel> = []
 
   constructor(){}
 
-  ngOnInit(): void 
+  ngOnInit(): void
   {
     const data: any = (dataRaw as any).default
-    console.log(data.data);
+    //console.log(data.data);
     this.mockTracksList = data.data;
   }
 
